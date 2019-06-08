@@ -1,0 +1,1 @@
+This project simulates a robot driving to an object, picking it up, then driving to a new location to drop off the object. It uses the slam_gmapping project to create a map of the environment with turtlebot. The AMCL package is used for localization. The ROS navigation stack (based on Dijkstra's algorithm) is used to create a path to the object and dropoff point.
